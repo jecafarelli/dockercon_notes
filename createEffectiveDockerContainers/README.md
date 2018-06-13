@@ -70,3 +70,10 @@ Aqua micro scanner
 ### do garbage collector
 spotify-gc
 ECS and Kuebrentes has flags to modify
+
+### Final lessons
+smaller layers
+choose image wisely
+not all languages build the same
+keep it simple, avoids extras
+tools are here to help
