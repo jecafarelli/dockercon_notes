@@ -43,3 +43,16 @@ This should be wrapped around things like databases, caches, and other required 
 healthcheck utility written in language of application
 runs periodically
 excercises app logic
+
+During demo, he setup a seperate utility to listen on another port that calls his application from within the container. He set a very small timeout to figure out if the response is slow or not and has manifest file hit this endpoint
+
+This is a good idea, we can create a templated healthcheck for each language to do this.
+
+#### Metrics
+
+Metrics export utility
+runs in background
+exposes runtime metrics
+
+In the demo, whe created a new entrypoiny that scraps .net metrics running in the container. he then exposes within the cluster, but not etenrally. Then he uses prometheus to scrape these metrics and collect run time information for his application.
+
