@@ -32,3 +32,10 @@ more features
 
 ### whats build context?
 when docker is called it sends the info to the daemon. this context is big, ginal image is big?????
+
+### Docker cache
+ADD and COPy with look at checksums for match
+
+other then ADD and COPY only the sring will be used
+
+Once the cache is broken, each layer will be build
