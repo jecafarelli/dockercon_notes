@@ -39,3 +39,10 @@ ADD and COPy with look at checksums for match
 other then ADD and COPY only the sring will be used
 
 Once the cache is broken, each layer will be build
+
+### MAke it better
+
+move just a requirements file over and install them first
+put code copies at bottom
+put run commands all together with `\` and `&&`
+Switching users adds more 
