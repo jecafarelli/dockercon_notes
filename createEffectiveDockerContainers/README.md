@@ -51,3 +51,11 @@ Switching users adds more
 both the same, multistage is cleaner
 
 Look in slides at the end for links that show even more. READ IT!
+
+### nodejs made better
+use dockerignore, ignore the debuglog
+cache the npm pacakges, add the package.json first, npm install, then verything
+
+
+swapping base image, dropped 200mb going to Alpine
+Suffled stuff around to use cache made it even Smaller
