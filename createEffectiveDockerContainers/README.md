@@ -61,3 +61,12 @@ Suffled stuff around to use cache made it even Smaller
 ### Clean up
 docker image prune -a
 docker system prune -a
+
+### Security
+DOcker securit scanning
+aqua CI assurance
+Aqua micro scanner
+
+### do garbage collector
+spotify-gc
+ECS and Kuebrentes has flags to modify
