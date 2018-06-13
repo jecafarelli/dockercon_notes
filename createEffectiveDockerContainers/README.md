@@ -45,4 +45,9 @@ Once the cache is broken, each layer will be build
 move just a requirements file over and install them first
 put code copies at bottom
 put run commands all together with `\` and `&&`
-Switching users adds more 
+Switching users adds more
+
+### Multistage vs seperate dockerfiles
+both the same, multistage is cleaner
+
+Look in slides at the end for links that show even more. READ IT!
