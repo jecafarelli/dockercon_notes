@@ -1,15 +1,15 @@
 # Docker EE: An Architecture & Operations Overview
 ## Kubernetes Integration
 ### Description
-  Today’s UCP with additional orchestrator
-    * Multi-orchestrator configuration
-    * Allocate nodes to each orchestrator
-    * “Vanilla” CNCF kube, no wrapping
-    * Opinionated stack with “batters included” networking and storage
-### Features/Benefits:
-    * Support for Docker and Swarm APIs
-    * Support for Kubernetes API
-    * EE features including LDAP/AD, RBAC, Scanning, Signing Enforcement, Security Policies, etc.
+#### Today’s UCP with additional orchestrator
+  * Multi-orchestrator configuration
+  * Allocate nodes to each orchestrator
+  * “Vanilla” CNCF kube, no wrapping
+  * Opinionated stack with “batters included” networking and storage
+### Features/Benefits
+  * Support for Docker and Swarm APIs
+  * Support for Kubernetes API
+  * EE features including LDAP/AD, RBAC, Scanning, Signing Enforcement, Security Policies, etc.
 ### Deployment Options
   * Deploy via UI or CLI
   * Docker EE uses standard Kube API and CLI
